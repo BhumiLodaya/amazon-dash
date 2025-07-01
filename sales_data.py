@@ -1,6 +1,6 @@
 import pandas as pd
 
-df= pd.read_csv("C:/Users/bhumi/OneDrive/Desktop/professional/internship/sales/Amazon Sale Report.csv")
+df= pd.read_csv(Amazon Sale Report.csv")
 df= df.drop_duplicates()
 '''print(df.info)
 print(df.head)
@@ -23,4 +23,4 @@ print(df.columns.tolist())
 
 
 print(df.isnull().sum())
-df.to_csv("C:/Users/bhumi/OneDrive/Desktop/professional/internship/sales/sales_cleaned.csv", index=False)
+df.to_csv(sales_cleaned.csv", index=False)
