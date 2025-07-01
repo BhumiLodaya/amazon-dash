@@ -12,6 +12,7 @@ This beginner-level project demonstrates:
 - Grouping and aggregating business KPIs
 - Building interactive visuals with Plotly
 - Developing a simple web dashboard using Dash
+  
 
 The goal was to create a functional model that offers a high-level view of Amazon sales trends across categories, locations, and fulfillment statuses.
 
@@ -44,5 +45,17 @@ The goal was to create a functional model that offers a high-level view of Amazo
 
 Install required packages using pip:
 
+
+---
+## 📥 **Download the full Amazon sales dataset**
+https://drive.google.com/drive/folders/17HLMZaZTdwB4lNWzMSHatIPqNABb-bSt?usp=drive_link
+
+
+> Note: This CSV is too large to host on GitHub directly. A sample version is used for demo purposes in the repo.
+
+
+
 ```bash
 pip install pandas plotly dash dash-bootstrap-components
+
+
